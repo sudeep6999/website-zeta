@@ -1,0 +1,85 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #022d41;
+    background-image: url(R.jpg);
+}
+a {
+    font-size: large;
+}
+#loginbtn {
+    background-color: rgb(224, 224, 33);
+
+}
+.background {
+background-color: #022D41;
+}
+
+#zetatext {
+    position: relative;
+    bottom: 6px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(224, 224, 33);
+    line-height: 40px;
+    display: inline-block;
+    padding-left:10px;
+}
+
+#loginform {
+    text-align: center;
+    text-decoration: none;
+    color: #DAECF3;
+
+}
+#logo {
+    position: relative;
+    top: 14px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+#crypto {
+    display: inline-block;
+    position: relative;
+    left: 960px;
+    bottom: 25px;
+}
+ #logo:hover{
+    transform: scale(1.2);
+    transition-duration: 1.4s;
+    rotate: 180deg;
+ }
+#loginborder1:hover {
+    background-color: #DAECF3;
+    color: #FE424D;
+    font-weight: 100;
+    transition-delay: 0.1s;
+    transition-property: ease;
+    transform: scale(1.1);
+    
+}
+#loginborder1 {
+    text-decoration: none;
+    position: relative;
+    bottom: 50px;
+    left: 1100px;
+    display: inline-block;
+    border: 2px solid white;
+    width: 120px;
+    border-radius: 10px;
+    text-align: center;
+}
+#login{
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 20px;
+    color: #022d41;
+    border:2px solid #022D41;
+    font-family: cursive;
+}
